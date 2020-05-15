@@ -61,33 +61,33 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11706}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 12370}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12424}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 13082}
+      Script: {instanceID: 13090}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 13458}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13764}
     - Class: 114
-      Script: {instanceID: 13860}
+      Script: {instanceID: 13866}
     - Class: 114
-      Script: {instanceID: 13992}
+      Script: {instanceID: 13998}
     - Class: 114
-      Script: {instanceID: 14152}
+      Script: {instanceID: 14158}
     - Class: 114
-      Script: {instanceID: 14328}
+      Script: {instanceID: 14334}
     - Class: 114
-      Script: {instanceID: 14498}
+      Script: {instanceID: 14504}
     - Class: 114
-      Script: {instanceID: 14540}
+      Script: {instanceID: 14546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -122,7 +122,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 13000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -828,4 +828,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainScreen.unity
   - Assets/Scenes/Maps/BattleScene.unity
-  playerPath: D:/VisualStudio/Repos/RTS/SpaceForce/BetaBuild/SpaceForce.exe
+  playerPath: C:/Users/whelb/Documents/GitHub/RTS/SpaceForce/BetaBuild/SpaceForce.exe
