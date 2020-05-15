@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraController
     - MainMenu
+    - PauseMenu
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -61,33 +62,33 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11706}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 12370}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12424}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 13082}
+      Script: {instanceID: 13090}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 13458}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13764}
     - Class: 114
-      Script: {instanceID: 13860}
+      Script: {instanceID: 13866}
     - Class: 114
-      Script: {instanceID: 13992}
+      Script: {instanceID: 13998}
     - Class: 114
-      Script: {instanceID: 14152}
+      Script: {instanceID: 14158}
     - Class: 114
-      Script: {instanceID: 14328}
+      Script: {instanceID: 14334}
     - Class: 114
-      Script: {instanceID: 14498}
+      Script: {instanceID: 14504}
     - Class: 114
-      Script: {instanceID: 14540}
+      Script: {instanceID: 14546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -122,8 +123,34 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 11372}
+    - Class: 114
+      Script: {instanceID: 11714}
+    - Class: 114
+      Script: {instanceID: 12378}
+    - Class: 114
+      Script: {instanceID: 13000}
+    - Class: 114
+      Script: {instanceID: 13090}
+    - Class: 114
+      Script: {instanceID: 13440}
+    - Class: 114
+      Script: {instanceID: 13764}
+    - Class: 114
+      Script: {instanceID: 13866}
+    - Class: 114
+      Script: {instanceID: 13998}
+    - Class: 114
+      Script: {instanceID: 14334}
+    - Class: 114
+      Script: {instanceID: 14504}
+    - Class: 114
+      Script: {instanceID: 14546}
+    - Class: 114
+      Script: {instanceID: 16620}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -132,6 +159,12 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
@@ -824,8 +857,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c8c5e65e9fb858572516474d6e2102bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainScreen.unity
   - Assets/Scenes/Maps/BattleScene.unity
-  playerPath: D:/VisualStudio/Repos/RTS/SpaceForce/BetaBuild/SpaceForce.exe
+  playerPath: C:/Users/whelb/Documents/GitHub/RTS/SpaceForce/BetaBuild2.0/SpaceForce.exe
