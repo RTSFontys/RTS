@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraController
     - MainMenu
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -60,33 +61,33 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11192}
+      Script: {instanceID: 11364}
     - Class: 114
-      Script: {instanceID: 11534}
+      Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 12198}
+      Script: {instanceID: 12370}
     - Class: 114
-      Script: {instanceID: 12252}
+      Script: {instanceID: 12424}
     - Class: 114
-      Script: {instanceID: 12908}
+      Script: {instanceID: 13082}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13432}
     - Class: 114
-      Script: {instanceID: 13276}
+      Script: {instanceID: 13450}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 13688}
+      Script: {instanceID: 13860}
     - Class: 114
-      Script: {instanceID: 13820}
+      Script: {instanceID: 13992}
     - Class: 114
-      Script: {instanceID: 13980}
+      Script: {instanceID: 14152}
     - Class: 114
-      Script: {instanceID: 14156}
+      Script: {instanceID: 14328}
     - Class: 114
-      Script: {instanceID: 14326}
+      Script: {instanceID: 14498}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 14540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -102,6 +103,41 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Maps/BattleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12992}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -410,6 +446,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 532defb06f0cad68cb09fe331d96ee48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -785,4 +827,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainScreen.unity
-  playerPath: C:/Users/whelb/Documents/GitHub/RTS/SpaceForce/BetaBuild/SpaceForce.exe
+  - Assets/Scenes/Maps/BattleScene.unity
+  playerPath: D:/VisualStudio/Repos/RTS/SpaceForce/BetaBuild/SpaceForce.exe
